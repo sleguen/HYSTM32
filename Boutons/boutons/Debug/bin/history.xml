@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=boutons.map -O0 --gc-sections -LF:\14_CoIDE\configuration\ProgramData\boutons -TF:\14_CoIDE\configuration\ProgramData\boutons/arm-gcc-link.ld -g">
+      <target file="boutons.elf" lastModified="14f9db85e57">
+         <source file="..\obj\system_stm32f10x.o" lastModified="14f9db48273"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14f9db482c1"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14f9db4836d"/>
+         <source file="..\obj\main.o" lastModified="14f9db85c55"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14f9db48486"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="14f9db48503"/>
+         <source file="..\obj\leds.o" lastModified="14f9db48570"/>
+         <source file="..\obj\exti.o" lastModified="14f9db6d579"/>
+         <source file="..\obj\misc.o" lastModified="14f9db4865a"/>
+      </target>
+   </processor>
+</history>

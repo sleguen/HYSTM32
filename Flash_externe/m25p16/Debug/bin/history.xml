@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=m25p16.map -O0 --gc-sections -LF:\14_CoIDE\configuration\ProgramData\m25p16 -TF:\14_CoIDE\configuration\ProgramData\m25p16/arm-gcc-link.ld -g">
+      <target file="m25p16.elf" lastModified="14fe526acaa">
+         <source file="..\obj\system_stm32f10x.o" lastModified="14fe51228b1"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="14fe51228ff"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14fe51229ba"/>
+         <source file="..\obj\mp25p16.o" lastModified="14fe512d008"/>
+         <source file="..\obj\main.o" lastModified="14fe526aa98"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14fe5122bec"/>
+         <source file="..\obj\misc.o" lastModified="14fe5122c5a"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="14fe5122cf6"/>
+      </target>
+   </processor>
+</history>

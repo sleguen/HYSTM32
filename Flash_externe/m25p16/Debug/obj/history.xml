@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\09_CoIde_wks -I..\..\..\..\09_CoIde_wks\HYSTM32\Flash_externe\cmsis_boot -I..\..\..\..\09_CoIde_wks\HYSTM32 -I..\..\..\..\09_CoIde_wks\HYSTM32\Flash_externe\cmsis -I..\..\..\..\09_CoIde_wks\HYSTM32\Flash_externe\stm_lib\inc -I..\..\..\..\09_CoIde_wks\HYSTM32\Flash_externe -I..\..\..\..\09_CoIde_wks\HYSTM32\Flash_externe\stm_lib">
+      <target file="stm32f10x_rcc.o" lastModified="14fe5122bec">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14fa1d7f8c0"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="14fe51228ff">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="14fa1d7f881"/>
+      </target>
+      <target file="misc.o" lastModified="14fe5122c5a">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14fa2b86e9c"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14fe51228b1">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14fa1d7f891"/>
+      </target>
+      <target file="main.o" lastModified="14fe526aa98">
+         <source file="..\..\..\main.c" lastModified="14fe5269bd6"/>
+      </target>
+      <target file="mp25p16.o" lastModified="14fe512d008">
+         <source file="..\..\..\mp25p16.c" lastModified="14fe512cd5a"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14fe5122cf6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14fa1d7f852"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14fe51229ba">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14fa1d7f8c0"/>
+      </target>
+   </processor>
+</history>
